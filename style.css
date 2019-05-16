@@ -1,0 +1,110 @@
+/* CSS Comment */
+/*If you can read this you're mom ghey*/
+* {
+  font-size: 100%;
+  margin:0;
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid blue */
+}
+
+body {
+  background-color: #c2daef;
+  color: black;
+  font-family: Helvetica, "Avant Garde", Arial;
+  font-size: 18px;
+  margin: 40px;
+}
+
+header {
+  background-color: GhostWhite;
+  color: black;
+  font-family: "PT Sans Narrow", Arial;
+  border: 5px solid blue;
+}
+
+section {
+  background-color: AliceBlue;
+  color: MidnightBlue;
+  border: 1px solid gainsboro;
+}
+
+footer {
+  background-color: thistle;
+  color: MidnightBlue;
+}
+
+/* divider elements */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+header,
+section,
+footer {
+  padding: 30px;
+}
+
+/* common elements */
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size:24px;
+}
+
+h3 {
+  font-size:20;
+}
+
+
+h1 {
+  text-align: left;
+}
+
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+img {
+  height: 300px;
+}
+
+/* Link Elements */
+a:link
+a:focus
+a:active {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: crimson;
+}
+
+/* custom classes */
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
