@@ -10,6 +10,8 @@
 
 body {
   background-color: #c2daef;
+  background-image: url(images/prism.png);
+  background-repeat: repeat;
   color: black;
   font-family: Helvetica, "Avant Garde", Arial;
   font-size: 18px;
@@ -40,14 +42,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 
-p {
-  margin-bottom: 15px;
-}
-
 header,
 section,
 footer {
   padding: 30px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 /* common elements */
@@ -62,7 +69,6 @@ h2 {
 h3 {
   font-size:20;
 }
-
 
 h1 {
   text-align: left;
@@ -80,11 +86,16 @@ a {
 
 img {
   height: 300px;
+  border: 2px solid black;
+}
+
+iframe {
+  border: 3px solid black;
 }
 
 /* Link Elements */
-a:link
-a:focus
+a:link,
+a:focus,
 a:active {
   text-decoration: none;
   color: red;
@@ -107,4 +118,11 @@ a:visited {
 .container {
   max-width: 1050px;
   margin: 0 auto;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/the-infirmary_cover_pic2.jpg);
+  background-size: cover;
+  /* background-position: center; */
 }
